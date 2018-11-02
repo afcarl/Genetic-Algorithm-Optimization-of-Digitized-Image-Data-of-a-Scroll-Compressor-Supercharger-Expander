@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ga - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\carlan\LOCALS~1\Temp\RSP1141.tmp" with contents
+[
+/compile_only /nologo /warn:nofileopt /module:"Release/" /object:"Release/" 
+"D:\afc_working\BAMS_stuff\0_ref\Scroll_Compressor_Expander_stuff\Picture_Scroll_Supercharger_061508b\ga_SN850900_Fixed_Involute_coords\src\ga170_f.f"
+]
+Creating temporary file "C:\DOCUME~1\carlan\LOCALS~1\Temp\RSP1142.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/ga.pdb" /machine:I386 /out:"Release/ga.exe" 
+.\Release\ga170_f.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\carlan\LOCALS~1\Temp\RSP1142.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+D:\afc_working\BAMS_stuff\0_ref\Scroll_Compressor_Expander_stuff\Picture_Scroll_Supercharger_061508b\ga_SN850900_Fixed_Involute_coords\src\ga170_f.f
+D:\afc_working\BAMS_stuff\0_ref\Scroll_Compressor_Expander_stuff\Picture_Scroll_Supercharger_061508b\ga_SN850900_Fixed_Involute_coords\src\ga170_f.f(1451) : Warning: In this DATA statement, there are more variables than values assigned to the variables.   [X_L_I]
+ data x_L_I /-3.161,-3.143,-3.122,-3.097,-3.086,-3.058,-3.022,-2.791, ! SN850900 Left inner involute
+-------------^
+D:\afc_working\BAMS_stuff\0_ref\Scroll_Compressor_Expander_stuff\Picture_Scroll_Supercharger_061508b\ga_SN850900_Fixed_Involute_coords\src\ga170_f.f(1464) : Warning: In this DATA statement, there are more variables than values assigned to the variables.   [X_L_O]
+ data x_L_O /-3.339,-3.325,-3.268,-3.232,-3.182,-2.962,-2.897,-2.808, ! SN850900 Left outter involute
+-------------^
+D:\afc_working\BAMS_stuff\0_ref\Scroll_Compressor_Expander_stuff\Picture_Scroll_Supercharger_061508b\ga_SN850900_Fixed_Involute_coords\src\ga170_f.f(1479) : Warning: In this DATA statement, there are more variables than values assigned to the variables.   [X_R_I]
+ data x_R_I /3.129,3.093,3.057,3.057,3.022,2.951,2.951,2.844,2.737, ! SN850900 Right inner involute
+-------------^
+D:\afc_working\BAMS_stuff\0_ref\Scroll_Compressor_Expander_stuff\Picture_Scroll_Supercharger_061508b\ga_SN850900_Fixed_Involute_coords\src\ga170_f.f(1580) : Warning: In this DATA statement, there are more variables than values assigned to the variables.   [Y_L_I]
+ data y_L_I /0.300,0.407,0.549,0.656,0.692,0.763,0.798,1.332,1.475, ! SN850900 Left inner involute
+-------------^
+D:\afc_working\BAMS_stuff\0_ref\Scroll_Compressor_Expander_stuff\Picture_Scroll_Supercharger_061508b\ga_SN850900_Fixed_Involute_coords\src\ga170_f.f(1593) : Warning: In this DATA statement, there are more variables than values assigned to the variables.   [Y_L_O]
+ data y_L_O /0.407,0.478,0.620,0.692,0.798,1.332,1.475,1.582,1.653, ! SN850900 Left outter involute
+-------------^
+D:\afc_working\BAMS_stuff\0_ref\Scroll_Compressor_Expander_stuff\Picture_Scroll_Supercharger_061508b\ga_SN850900_Fixed_Involute_coords\src\ga170_f.f(1608) : Warning: In this DATA statement, there are more variables than values assigned to the variables.   [Y_R_I]
+ data y_R_I /-0.625,-0.768,-0.910,-0.981,-1.060,-1.120,-1.195,-1.412, ! SN850900 Right inner involute
+-------------^
+D:\afc_working\BAMS_stuff\0_ref\Scroll_Compressor_Expander_stuff\Picture_Scroll_Supercharger_061508b\ga_SN850900_Fixed_Involute_coords\src\ga170_f.f(733) : Warning: Variable I_NUM_DATA_ACT is used before its value has been defined
+ allbestoutdata(kk,i_num_data_act+1)=alloutdata(kk,i_num_data_act+1)
+--------------------------^
+Linking...
+
+
+
+<h3>Results</h3>
+ga.exe - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>

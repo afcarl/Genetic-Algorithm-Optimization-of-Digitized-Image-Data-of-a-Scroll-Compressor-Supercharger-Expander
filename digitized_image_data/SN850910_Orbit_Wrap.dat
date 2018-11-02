@@ -1,0 +1,43 @@
+Metal Scale From 3" to 10":
+
+x-range: 0.00E0; 3.26E3
+scale: linear
+
+y-range: 2.44E3; 0.00E0
+scale: linear
+
+points: 2
+no sorting
+4.43E2	5.38E2
+3.16E3	5.62E2
+
+
+Total Wobble Wrap Thickness (2 * h + thickness of seperation plate):
+
+x-range: 0.00E0; 3.26E3
+scale: linear
+
+y-range: 2.44E3; 0.00E0
+scale: linear
+
+points: 2
+no sorting
+7.46E2	4.85E2
+2.65E3	5.02E2
+
+
+
+Seperation plate:
+
+x-range: 0.00E0; 3.26E3
+scale: linear
+
+y-range: 2.44E3; 0.00E0
+scale: linear
+
+points: 2
+no sorting
+1.66E3	7.38E2
+1.76E3	7.39E2
+
+
